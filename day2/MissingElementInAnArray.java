@@ -8,18 +8,25 @@ public class MissingElementInAnArray {
 								
 		int[] arr = {1,2,3,4,7,6,8};
 		
-		int i;
+		int i, j;
 		
 		int noofdata = arr.length;
 		
 		Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
 		
-		for(i=0; i<noofdata; i++) {
+		for(i=0; i<noofdata-1; i++) {
 			
-			if(i!=arr[i]) {
-				System.out.println("Not equal to the array value is :" +arr[i]);
-			break;
+			if(arr[i]==arr[i]+1) {
 				
+				continue;
+				
+			}
+			else
+				
+				for(j=arr[i]+1;j<arr[i+1];j++) {
+				System.out.println(j);
+			
 			}
 		}
 		

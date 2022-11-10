@@ -14,8 +14,10 @@ public class TwoWheeler {
 		// create object for TwoWheeler and call all the variables inside main method and print the values
 	    //classname objectname = new classname()
 		
+		 int noOfWheels = 4;
+		
 		TwoWheeler myBike = new TwoWheeler();
-		System.out.println(myBike.noOfWheels);
+		System.out.println(noOfWheels);
 		System.out.println(myBike.noOfMirrors);
 		System.out.println(myBike.chassisNumber);
 		System.out.println(myBike.isPunctured);

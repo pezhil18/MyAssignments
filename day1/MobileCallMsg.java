@@ -14,7 +14,7 @@ public class MobileCallMsg {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// classname.objectname = new Classname()
 		MobileCallMsg mcall = new MobileCallMsg();
 		mcall.makeCall();
 		mcall.sendMsg();

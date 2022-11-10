@@ -13,7 +13,7 @@ public class Mobile {
 	
 	public static void main(String[] args) {
 		// create object for Mobile and call all the variables inside main method and print the values.
-		
+		//classname objectname = new classname()
 		Mobile Phone = new Mobile();
 		
 		System.out.println(Phone.mobileBrandName);
